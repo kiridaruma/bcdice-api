@@ -1,2 +1,5 @@
 runtime: ruby25
 entrypoint: "bundle exec puma -b tcp://0.0.0.0:$PORT"
+env_variables:
+  BCDICE_API_ADMIN_NAME: kiridaruma
+  BCDICE_API_ADMIN_EMAIL: www2480www@gmail.com
